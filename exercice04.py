@@ -5,8 +5,16 @@ def recherche(tab):
         if i==(k+1):
             p=[k,i]
             l.append(p)
-            print(p)
         k=i
     return l
     
-print(recherche([5, 1, 2, 3, 8, -5, -4, 7]))
+#print(recherche([5, 1, 2, 3, 8, -5, -4, 7]))
+
+def recherche(elt,tab):
+    for i in len(tab):
+        if tab[i]==elt:
+            return i
+        else:
+            return -1
+        
+print(recherche(15,[8, 9, 10, 15]))
