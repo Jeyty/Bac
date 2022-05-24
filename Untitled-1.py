@@ -17,6 +17,6 @@ def pascal(n):
             Ck.append(C[k-1][i-1]+C[k-1][i] )
         Ck.append(1)
         C.append(Ck)
-    return C
+    print(C)
 print(pascal(12))  
 #print(moyenne([(15,2),(9,1),(12,3)]))
