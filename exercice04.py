@@ -11,9 +11,9 @@ def recherche(tab):
 #print(recherche([5, 1, 2, 3, 8, -5, -4, 7]))
 
 def recherche(elt,tab):
-    for i in len(tab):
+    for i in range(len(tab)):
         if tab[i]==elt:
-            return i
+            print(tab[i])
         else:
             return -1
         
